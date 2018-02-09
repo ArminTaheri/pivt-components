@@ -16,13 +16,27 @@
     "start": "nwb serve-react-demo",
     "test": "nwb test-react",
     "test:coverage": "nwb test-react --coverage",
-    "test:watch": "nwb test-react --server"
+    "test:watch": "nwb test-react --server",
+    "storybook": "start-storybook -p 6006",
+    "build-storybook": "build-storybook",
+    "flow": "flow"
   },
   "dependencies": {},
   "peerDependencies": {
     "react": "16.x"
   },
   "devDependencies": {
+    "@storybook/addon-actions": "^3.3.12",
+    "@storybook/addon-links": "^3.3.12",
+    "@storybook/react": "^3.3.12",
+    "babel-eslint": "^7.2.3",
+    "eslint": "^4.17.0",
+    "eslint-config-react-app": "^2.1.0",
+    "eslint-plugin-flowtype": "^2.42.0",
+    "eslint-plugin-import": "^2.8.0",
+    "eslint-plugin-jsx-a11y": "^5.1.1",
+    "eslint-plugin-react": "^7.6.1",
+    "flow-bin": "^0.65.0",
     "nwb": "0.21.x",
     "react": "^16.2.0",
     "react-dom": "^16.2.0"

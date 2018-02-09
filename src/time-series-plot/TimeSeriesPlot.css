@@ -1,0 +1,15 @@
+.time-series-plot-container {
+  display: flex;
+  flex-direction: row;
+}
+
+.time-series-label {
+  display: flex;
+  text-align: center;
+  align-items: center;
+}
+
+.time-series-canvas {
+  height: 100%;
+  width: 100%;
+}
